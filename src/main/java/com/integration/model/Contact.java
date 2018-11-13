@@ -5,6 +5,12 @@ import java.io.Serializable;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * 
+ * @author frvazquez
+ * @creacion 13/nov/2018
+ *
+ */
 @Document
 public class Contact implements Serializable {
 

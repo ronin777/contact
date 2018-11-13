@@ -8,6 +8,13 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
 
 import com.integration.repository.ContactRepository;
 
+/**
+ * 
+ * @author frvazquez
+ * @creacion 13/nov/2018
+ *
+ */
+
 @EntityScan("com.integration.model")
 @ComponentScan(basePackages = "com.integration")
 @EnableReactiveMongoRepositories(basePackageClasses = ContactRepository.class)
