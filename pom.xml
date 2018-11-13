@@ -27,23 +27,26 @@
 		<relativePath />
 		<!-- lookup parent from repository -->
 	</parent>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<spring.mongodb>2.1.2.RELEASE</spring.mongodb>
-<!-- 		<spring.mongodb>1.0.0.RELEASE</spring.mongodb> -->
+		<!-- <spring.mongodb>2.1.2.RELEASE</spring.mongodb> -->
 	</properties>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-mongodb</artifactId>
-			<version>${spring.mongodb}</version>
-		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>org.springframework.data</groupId> -->
+		<!-- <artifactId>spring-data-mongodb</artifactId> -->
+		<!-- <version>${spring.mongodb}</version> -->
+		<!-- </dependency> -->
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
