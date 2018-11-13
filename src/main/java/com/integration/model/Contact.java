@@ -72,4 +72,10 @@ public class Contact implements Serializable {
 		this.tel = tel;
 	}
 
+	@Override
+	public String toString() {
+		return "Contact [id=" + id + ", names=" + names + ", lastnames=" + lastnames + ", email=" + email + ", tel="
+				+ tel + "]";
+	}
+
 }
